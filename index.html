@@ -1,3 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список ссылок в виде кнопок</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: #ffffff;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px 24px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        a:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Разные цвета для кнопок */
+        .btn-google {
+            background-color: #4285F4;
+        }
+
+        .btn-wikipedia {
+            background-color: #007AFF;
+        }
+
+        .btn-github {
+            background-color: #24292E;
+        }
+
+        .btn-stackoverflow {
+            background-color: #F48024;
+        }
+
+        .btn-youtube {
+            background-color: #FF0000;
+        }
+
+        /* Стиль рамки вокруг панели */
+        .panel {
+            border: 2px solid #d1d1d1;
+            border-radius: 12px;
+            padding: 20px;
+        }
+    </style>
+</head>
 <body>
-    <a href="Project_one/index.html">Project one</a>
+    <div class="container">
+        <div class="panel">
+            <h1>Проекты</h1>
+            <ul>
+                <li><a href="Project_one/index.html"class="btn-google">Project one</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
+</html>
