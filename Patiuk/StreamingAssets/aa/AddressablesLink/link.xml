@@ -1,13 +1,19 @@
 <linker>
   <assembly fullname="FruitBlast, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="FruitBlast.Common.Providers.SpriteRendererComponentProvider" preserve="all" />
     <type fullname="FruitBlast.Common.Providers.TransformComponentProvider" preserve="all" />
+    <type fullname="FruitBlast.Gameplay.Configs.GameplayConfig" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallsConfig" preserve="all" />
-    <type fullname="FruitBlast.Gameplay.Features.Field.Configs.FieldConfig" preserve="all" />
+    <type fullname="FruitBlast.Gameplay.Features.GameField.Configs.FieldConfig" preserve="all" />
+    <type fullname="FruitBlast.Gameplay.Features.GameField.FieldFilling.Configs.FieldFillingConfig" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Features.Physics.Configs.PhysicsConfig" preserve="all" />
     <type fullname="FruitBlast.Infrastructure.EntityViews.EntityBehaviour" preserve="all" />
+    <type fullname="FruitBlast.Gameplay.Configs.GameplayConfigData" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallConfig" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallsGeneralConfig" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallsVariantsConfig" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.Gameplay.Features.GameField.Configs.FieldConfigData" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.Gameplay.Features.GameField.FieldFilling.Configs.FieldFillingConfigData" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Physics.Configs.PhysicsConfigData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
