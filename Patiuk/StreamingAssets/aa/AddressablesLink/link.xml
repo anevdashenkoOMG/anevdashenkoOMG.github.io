@@ -1,20 +1,34 @@
 <linker>
   <assembly fullname="FruitBlast, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="FruitBlast.Common.Providers.SpriteMaterialComponentProvider" preserve="all" />
     <type fullname="FruitBlast.Common.Providers.SpriteRendererComponentProvider" preserve="all" />
     <type fullname="FruitBlast.Common.Providers.TransformComponentProvider" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Configs.GameplayConfig" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallsConfig" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Features.GameField.Configs.FieldConfig" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Features.GameField.FieldFilling.Configs.FieldFillingConfig" preserve="all" />
+    <type fullname="FruitBlast.Gameplay.Features.Levels.Configs.ExperienceConfig" preserve="all" />
+    <type fullname="FruitBlast.Gameplay.Features.Perks.Configs.PerkConfig" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Features.Physics.Configs.PhysicsConfig" preserve="all" />
     <type fullname="FruitBlast.Infrastructure.EntityViews.EntityBehaviour" preserve="all" />
+    <type fullname="FruitBlast.UI.Configs.ViewsConfig" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.Hud.HudView" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.Label.LabelView" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.Pause.PauseDialogView" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Configs.GameplayConfigData" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallConfig" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallsGeneralConfig" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallsVariantsConfig" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.GameField.Configs.FieldConfigData" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.GameField.FieldFilling.Configs.FieldFillingConfigData" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.Gameplay.Features.Levels.Configs.ExperienceDropData" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.Gameplay.Features.Levels.Configs.ExperienceGemConfig" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.Gameplay.Features.Levels.Configs.LevelsConfig" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.Gameplay.Features.Perks.Configs.PerkConfigData" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.Gameplay.Features.Perks.Configs.PerkId" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.Gameplay.Features.Perks.Configs.PerkLevelData" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Physics.Configs.PhysicsConfigData" preserve="nothing" serialized="true" />
+    <type fullname="FruitBlast.UI.Configs.ViewConfigsData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -26,14 +40,59 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
   </assembly>
 </linker>
