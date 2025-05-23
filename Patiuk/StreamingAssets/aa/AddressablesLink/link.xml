@@ -3,6 +3,7 @@
     <type fullname="FruitBlast.Common.Providers.SpriteMaterialComponentProvider" preserve="all" />
     <type fullname="FruitBlast.Common.Providers.SpriteRendererComponentProvider" preserve="all" />
     <type fullname="FruitBlast.Common.Providers.TransformComponentProvider" preserve="all" />
+    <type fullname="FruitBlast.Gameplay.Common.Providers.ParticlesComponentProvider" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Configs.GameplayConfig" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallsConfig" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Features.GameField.Configs.FieldConfig" preserve="all" />
@@ -12,9 +13,15 @@
     <type fullname="FruitBlast.Gameplay.Features.Physics.Configs.PhysicsConfig" preserve="all" />
     <type fullname="FruitBlast.Infrastructure.EntityViews.EntityBehaviour" preserve="all" />
     <type fullname="FruitBlast.UI.Configs.ViewsConfig" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.Defeat.DefeatDialogView" preserve="all" />
     <type fullname="FruitBlast.UI.Views.Hud.HudView" preserve="all" />
     <type fullname="FruitBlast.UI.Views.Label.LabelView" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.ListView" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.NewPerks.NewPerkItemView" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.NewPerks.NewPerksDialogView" preserve="all" />
     <type fullname="FruitBlast.UI.Views.Pause.PauseDialogView" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.PerksSelection.PerkItemView" preserve="all" />
+    <type fullname="FruitBlast.UI.Views.PerksSelection.PerksSelectionView" preserve="all" />
     <type fullname="FruitBlast.Gameplay.Configs.GameplayConfigData" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallConfig" preserve="nothing" serialized="true" />
     <type fullname="FruitBlast.Gameplay.Features.Balls.Configs.BallsGeneralConfig" preserve="nothing" serialized="true" />
@@ -63,9 +70,15 @@
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -73,8 +86,11 @@
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
